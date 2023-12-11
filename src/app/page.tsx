@@ -1,7 +1,11 @@
+import AllNews from "@/components/ui/AllNews";
+
 export default function Home() {
   return (
     <main>
-      <h2>fafasd</h2>
+      <div className="max-w-7xl mx-auto px-2 md:px-4">
+        <AllNews />
+      </div>
     </main>
   );
 }
